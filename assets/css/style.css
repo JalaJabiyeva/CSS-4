@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid gray;
+    margin: 100px 100px 100px 400px;
+    width: 550px;
+    height: 600px;
+   
+}
+
+.form-element i {
+    position: relative;
+    top: 2px;
+    right: 30px;
+}
+
+.form-element h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.form-element input {
+    padding: 0 300px 0 10px;
+    height: 40px;
+    margin: 20px 0 0 30px;
+}
+
+.checkbox {
+    margin: 20px 0 0 30px;
+}
+
+.form-element button {
+    width: 500px;
+    height: 40px;
+    background-image: linear-gradient(to right, #a4a1fd 0%, #c2e9fb 51%, rgb(151, 242, 237) 100%);
+    color: white;
+    padding: 5px 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.form-element p {
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
